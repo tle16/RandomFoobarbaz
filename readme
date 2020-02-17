@@ -1,0 +1,23 @@
+Description
+
+    This program is designed to create a structure array of size 20 filled with random numbers, it then swaps
+    two locations in the structure arrays.
+    The files that are used in the source code are named:
+     many_foobarbaz.c
+     print_foobarbaz.c
+     rand_double.c
+     rand_foobarbaz.c
+    other libraries used for this program is located in the header file swap.h
+
+
+Compiling the Code
+
+	using the makefile provided, in the terminal as it is opened in the same directory, type in the terminal
+    "make" which will automatically run the command:
+        gcc -Wall -ansi l2.c many_foobarbaz.c rand_double.c rand_foobarbaz.c print_foobarbaz.c swap_foobarbaz.c -o l2
+
+Running the Code
+
+	./l2
+
+Written By Trevor Le, Student ID: 1044055
